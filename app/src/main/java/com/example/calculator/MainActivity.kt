@@ -71,7 +71,7 @@ class MainActivityActivity : AppCompatActivity() {
             val number = etNumber.text.toString()
             val numberDecimal = etNumber2.text.toString()
             if (number.isBlank()) {
-                etNumber.setError("Number is required")
+                etNumber.setError("Number  is required")
                 return@setOnClickListener
             }
             if (numberDecimal.isBlank()) {
